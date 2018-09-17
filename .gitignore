@@ -1,0 +1,26 @@
+.DS_Store
+._.DS_Store
+
+# Sublime text codeigniter autocomplete helper
+ci_ide_helper.php
+
+###############################################################################
+#### Ignore backup files (*~) and vim swap file (.swp),
+#### MacOS dir file (.DS_Store) and any file with .out extension (a.out ..etc)
+#### and Eclipse IDE hidden files
+#### author: artka
+################################################################################
+*/~
+*/.lock
+*/.DS_Store
+*/._.DS_Store
+*/.swp
+*/.out
+*/.buildpath
+*/.project
+*/.settings
+.buildpath
+.project
+.settings
+.idea
+
