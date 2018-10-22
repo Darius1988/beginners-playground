@@ -20,6 +20,44 @@
 <script src="static/js/main.js"></script>
 </html>
 
-<script id="template-footer" type="text/x-handlebars-template">
-    It can be a handlebars template
+<script id="ht-header" type="text/x-handlebars-template">
+<div class="d-block">
+    <div id="logo" class="d-inline-block">Logo</div>
+    <div class="d-inline-block fr">
+        <a href="/">Home</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/support.html">Support</a>
+    </div>
+</div>
+</script>
+
+<script id="ht-slogan" type="text/x-handlebars-template">
+<div class="area-title d-block">
+    <h1>Slogan of the website</h1>
+    <div class="quote">
+        “People don’t take trips, trips take people.“ But you can also take people to trips!
+    </div>
+</div>
+
+<div class="area-content">
+    <p>This quote by a famous writer John Steinbeck is absolutely reliable, but there’s no harm if it’s a
+        little adjusted: Trips take people, whom you want to travel with.</p>
+    <p>Travelling is all about the experience. And that experience depends on people you are with.
+        As it is, soulmates are not so easy to find. To find yours, you have to know how to search and for what.
+        So here’s some tips.</p>
+</div>
+</script>
+
+<script id="ht-new-list" type="text/x-handlebars-template">
+<h2>New list</h2>
+{{#each list}}
+<div class="area-list-item">
+    <h3>{{id}}. {{title}}</h3>
+    <div class="short-text">{{body}}</div>
+</div>
+{{~/each}}
+</script>
+
+<script id="ht-footer" type="text/x-handlebars-template">
+    Generated footer
 </script>
